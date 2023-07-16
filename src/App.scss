@@ -1,0 +1,79 @@
+@import '~bootstrap/scss/bootstrap';
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/design/fondo-pantalla.jpg");
+}
+.info,
+.carrousel,
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  background-image: url("./assets/design/fondo-item.jpg");
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.actividades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .App-logo {
+      display: none;
+    }
+  }
+}
+
+.site-card-border-less-wrapper,
+.cards-colaboradores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-donar {
+  border: solid 1px #14db36;
+  background-color: #fff;
+  color: #14db36;
+  border-radius: 10px;
+  &:hover {
+    background-color: #14db36;
+    color: #fff;
+  }
+}
+
+.App-footer {
+  background-color: #6c757d;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    width: 370px;
+  }
+}
+

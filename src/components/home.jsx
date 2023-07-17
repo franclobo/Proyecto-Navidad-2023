@@ -1,6 +1,5 @@
 import React from 'react';
 import ColorSchemesExample from './navbar';
-import SagradaFamilia from '../assets/design/sagrada_familia.png';
 import Cards from './cards';
 import Carousel from './carousel';
 import Colaboradores from './colaboradores';
@@ -41,11 +40,10 @@ function Home() {
           ></iframe>
         </section>
         <section className="actividades">
-          <img src={SagradaFamilia} className="App-logo" alt="logo" />
           <Cards />
         </section>
         <section className="carrousel">
-          <p>
+          <p className="mision">
             Nos hemos propuesto ayudar cada año a 50 familias, entregando ropa,
             alimentos y juguetes a adultos, jóvenes y niños. Esperamos poder
             continuar cada año realizando esta actividad con la colaboración de
@@ -61,8 +59,19 @@ function Home() {
           <img src={Logo} className="App-logo" alt="logo" />
           <div className="line">
             <h2>Contáctanos</h2>
-            <Form />
+            <p>
+              <strong>Whatsapp:</strong> 0981939711
+            </p>
+            <p>
+              <strong>Correo:</strong> proyectonavidad@outlook.com
+            </p>
+            <p>
+              <strong>Donaciones:</strong> Banco Pichincha <br />
+              <strong>Cuenta de Ahorros:</strong> 2204188183 <br />
+              <strong>Nombre:</strong> Joselyn Quispillo
+            </p>
           </div>
+          <Form />
         </section>
       </main>
       <footer className="App-footer">

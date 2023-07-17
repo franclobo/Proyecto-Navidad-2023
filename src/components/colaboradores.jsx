@@ -27,8 +27,14 @@ export default function ActionAreaCard() {
               Diego Peñafiel
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Buscar lugar para las donaciones.</li>
+                <li>Pactar lugar y fecha con la directiva del lugar seleccionado.</li>
+                <li>Coordinar al personal interno, monto de donación, encargados de actividades y diversidad de canasta.</li>
+                <li>Compras acompañado por secretaria y tesorera</li>
+                <li>Velar por los intereses de los integrantes.</li>
+                <li>Postulaciones de socios conjuntamente con marketing.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -46,8 +52,9 @@ export default function ActionAreaCard() {
               Angel Rugel
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Animación del evento.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -65,8 +72,13 @@ export default function ActionAreaCard() {
               Cristian Sosoranga
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Gestión con el personal de apoyo en salud.</li>
+                <li>Logística.</li>
+                <li>Trato al paciente.</li>
+                <li>Colocación de medicamentos.</li>
+                <li>Abastecer con enceres necesarios para el evento.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -84,8 +96,12 @@ export default function ActionAreaCard() {
               Bryan Macias
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Charlas sobre protección personal.</li>
+                <li>Charlas de bioseguridad.</li>
+                <li>Charlas de distanciaminto social.</li>
+                <li>Encargado de protección personal.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -103,8 +119,12 @@ export default function ActionAreaCard() {
               Kerly Guaman
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Documentación del proyecto.</li>
+                <li>Eventos sociales, animación.</li>
+                <li>LOgística de entrega de certificados.</li>
+                <li>Apoyo al personal requerido.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -122,8 +142,12 @@ export default function ActionAreaCard() {
               Maricela Rodriguez
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Brindar apoyo a todas las áreas.</li>
+                <li>Encargado de alimentación.</li>
+                <li>Encargado de transporte.</li>
+                <li>Encargado de coordinar todos los materiales, donaciones que estén disponibles para el uso correspondiente.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -141,8 +165,14 @@ export default function ActionAreaCard() {
               Francisco Borja
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Publicidad</li>
+                <li>Documentar el programa digital y físicamente.</li>
+                <li>Apoyo a secretaría para entrega de certificados.</li>
+                <li>Búsqueda de donadores.</li>
+                <li>Campaña de satisfacción y mejora.</li>
+                <li>Proponer logos, colores y posición de marca.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -160,27 +190,12 @@ export default function ActionAreaCard() {
               Joselyn Quispillo
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-      <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            height="280"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="Jefferson Peñafiel"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Jefferson Peñafiel
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              <ul>
+                <li>Recaudo de cuaotas para el evento.</li>
+                <li>Estadística de compras.</li>
+                <li>Respaldo de compras.</li>
+                <li>Informe de contabilidad.</li>
+              </ul>
             </Typography>
           </CardContent>
         </CardActionArea>

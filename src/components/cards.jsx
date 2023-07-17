@@ -35,7 +35,7 @@ const Cards = () => (
       cover={<img alt="comida" src={Candy} style={{ height: 120 }} />}
     >
       <Meta
-        title="Caramelos"
+        title="Comida"
         description="Realizamos canastas de comda y fundas de caramelos para los más pequeños. "
       />
     </Card>

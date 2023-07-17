@@ -6,21 +6,65 @@
   justify-content: center;
   align-items: center;
   background-image: url("./assets/design/fondo-pantalla.jpg");
+  @media (max-width: 768px) {
+    margin: 0 10px;
+    padding: 0 10px;
+  }
 }
+
 .info,
-.carrousel,
-.contact-form {
+.carrousel {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   grid-gap: 1rem;
   background-image: url("./assets/design/fondo-item-1.webp");
-  width: 100%;
-  margin: 20px;
-  padding: 20px;
+  article {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  .mision {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
   @media (max-width: 768px) {
     grid-template-columns: repeat(1, 1fr);
+    article {
+      text-align: center;
+    }
+  }
+}
+
+.colaboradores {
+  margin: 10px;
+  h2 {
+    text-align: center;
+  }
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  background-image: url("./assets/design/fondo-item-1.webp");
+  .form {
+    margin: 10px;
+    padding: 10px;
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    .App-logo {
+      width: 370px;
+    }
   }
 }
 
@@ -31,13 +75,19 @@
   padding: 20px;
   @media (max-width: 768px) {
     flex-direction: column;
-    .App-logo {
-      display: none;
-    }
   }
 }
 
-.site-card-border-less-wrapper,
+.site-card-border-less-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .cards-colaboradores {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

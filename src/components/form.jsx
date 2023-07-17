@@ -39,6 +39,8 @@ const App = () => {
     },
   };
 
+  const inputStyle = { width: "100%" };
+
   /* eslint-disable no-template-curly-in-string */
   const validateMessages = {
     required: "${label} is required!",
@@ -111,7 +113,7 @@ const App = () => {
           },
         ]}
       >
-        <InputNumber placeholder="593961842276" />
+        <InputNumber placeholder="593961842276" style={inputStyle} />
       </Form.Item>
       <Form.Item
         name="message"
